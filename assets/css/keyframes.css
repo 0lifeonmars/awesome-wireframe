@@ -1,0 +1,11 @@
+@-webkit-keyframes slideInDown { from { top: calc(var(--gap) - (var(--gap) * 24)); } to { top: calc(var(--gap) * 5.5); } } 
+@keyframes slideInDown { from { top: calc(var(--gap) - (var(--gap) * 24));} to { top: calc(var(--gap) * 5.5); } } 
+
+@-webkit-keyframes slideOutUp { from { top: calc(var(--gap) * 5.5); } to { top: calc(var(--gap) - (var(--gap) * 24)); } } 
+@keyframes slideOutUp { from { top: calc(var(--gap) * 5.5); } to { top: calc(var(--gap) - (var(--gap) * 24)); } }
+
+@-webkit-keyframes slideOutRight { from { right: var(--padding); opacity: 1; } to { right: calc(var(--padding) - (var(--padding) * 4)); opacity: 0; } }
+@keyframes slideOutRight { from { right: var(--padding); opacity: 1;  } to { right: calc(var(--padding) - (var(--padding) * 4)); opacity: 0; } }
+
+@-webkit-keyframes slideInRight {  from { right: calc(var(--padding) - (var(--padding) * 4)); opacity: 0;  } to { right: var(--padding); opacity: 1; } }
+@keyframes slideInRight { from { right: calc(var(--padding) - (var(--padding) * 4)); opacity: 0; } to { right: var(--padding); opacity: 1;  } }

@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/main.css" type="text/css">
+        <title>Famoraless - Awesome Wireframe</title>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header  class="header position_sticky w_100" data-bg-color="primary">
+            <h1>Famoraless - Awesome Wireframe</h1>
+            <div class="row d_flex justify_content-between align_items-center mx_auto w_100 h_100">
+                <a href="#" class="header__logo" data-txt-color="white" data-txt-weight="600" data-txt-transform="uppercase" data-txt-decoration="none">famoraless</a>
+
+                <button class="header__toggler" type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="d_block w_100 fill_white" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                </button>
+
+                <ul class="header__nav d_flex align_items-center" data-txt-weight="500" data-txt-transform="capitalize">
+                    <li><a href="#" data-txt-color="white" data-txt-decoration="none">home</a></li>
+                    <li><a href="#about" data-txt-color="white" data-txt-decoration="none">about</a></li>
+                    <li><a href="#team" data-txt-color="white" data-txt-decoration="none">team</a></li>
+                    <li><a href="#portfolio" data-txt-color="white" data-txt-decoration="none">portfolio</a></li>
+                    <li><a href="#contact" data-txt-color="white" data-txt-decoration="none">contact</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- NAV -->
+        <nav class="nav d_none position_fixed w_100" data-bg-color="primary">
+            <ul class="d_flex  flex_column align_items-start" data-txt-weight="500" data-txt-transform="capitalize">
+                <li class="d_block w_100"><a href="#" class="d_block w_100" data-txt-color="white" data-txt-decoration="none">home</a></li>
+                <li class="d_block w_100"><a href="#about" class="d_block w_100" data-txt-color="white" data-txt-decoration="none">about</a></li>
+                <li class="d_block w_100"><a href="#team" class="d_block w_100" data-txt-color="white" data-txt-decoration="none">team</a></li>
+                <li class="d_block w_100"><a href="#portfolio" class="d_block w_100" data-txt-color="white" data-txt-decoration="none">portfolio</a></li>
+                <li class="d_block w_100"><a href="#contact" class="d_block w_100" data-txt-color="white" data-txt-decoration="none">contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- MAIN -->
+        <main class="main position_relative">
+            <section id="home" data-bg-color="primary">
+                <div class="row d_flex flex_column justify_content-center align_items-center mx_auto w_100 h_100" data-txt-color="white" data-txt-align="center" data-txt-transform="capitalize">
+                    <h2 class="home__title" data-txt-weight="500">we build awesome wireframes</h2>
+                    <p class="home__subtitle" data-txt-weight="400">a template by your campany</p>
+                    <picture class="home__thumbnail d_block w_100 mx_auto">
+                        <img src="assets/images/macbook.png" class="d_block max_100 w_100 object_cover object_center" alt="">
+                    </picture>
+                </div>
+            </section>
+
+            <section id="about" class="section" data-bg-color="white">
+                <div class="row d_flex flex_column mx_auto w_100" data-txt-color="black" data-txt-weight="400" data-txt-align="center">
+                    <h2 class="section__title d_block mx_auto w_100" data-txt-weight="500" data-txt-transform="capitalize">about us</h2>
+                    <p class="section__text d_block mx_auto w_100">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    <picture class="d_block mx_auto w_100">
+                        <img src="assets/images/ipad.png" class="d_block max_100 w_100 object_cover object_center" alt="">
+                    </picture>
+                    <p class="section__text d_block mx_auto w_100">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+            </section>
+
+            <section id="team" class="section" data-bg-color="grey">
+                <div class="row d_flex flex_column mx_auto w_100" data-txt-color="black" data-txt-weight="400" data-txt-align="center">
+                    <h2 class="section__title d_block mx_auto w_100" data-txt-weight="500" data-txt-transform="capitalize">our team</h2>
+                    <p class="section__text d_block mx_auto w_100">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    
+                    <div class="teamboxes d_flex flow_wrap justify_content-center align_items-start">
+                        <div class="teambox d_flex flex_column justify_content-center align_items-center w_100">
+                            <picture class="teambox__thumbnail d_block w_100">
+                                <img src="assets/images/thumbnail__team_male.png" class="d_block max_100 w_100 object_cover object_center" alt="">
+                            </picture>
+                            <h3 class="teambox__title d_block w_100" data-txt-weight="500">Name</h3>
+                            <p class="teambox__description d_block w_100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ad corrupti sit deserunt.</p>
+                            <a href="mailto: contacto@famoraless.cl" class="btn d_block mx_auto" data-bg-color="primary" data-txt-decoration="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="d_block w_100 fill_white" viewBox="0 0 16 16"><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/></svg>
+                            </a>
+                        </div>
+
+                        <div class="teambox d_flex flex_column justify_content-center align_items-center w_100">
+                            <picture class="teambox__thumbnail d_block w_100">
+                                <img src="assets/images/thumbnail__team_female.png" class="d_block max_100 w_100 object_cover object_center" alt="">
+                            </picture>
+                            <h3 class="teambox__title d_block w_100" data-txt-weight="500">Name</h3>
+                            <p class="teambox__description d_block w_100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eos officia exercitationem aut?</p>
+                            <a href="mailto: contacto@famoraless.cl" class="btn d_block mx_auto" data-bg-color="primary" data-txt-decoration="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="d_block w_100 fill_white" viewBox="0 0 16 16"><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/></svg>
+                            </a>
+                        </div>
+
+                        <div class="teambox d_flex flex_column justify_content-center align_items-center w_100">
+                            <picture class="teambox__thumbnail d_block w_100">
+                                <img src="assets/images/thumbnail__team_male.png" class="d_block max_100 w_100 object_cover object_center" alt="">
+                            </picture>
+                            <h3 class="teambox__title d_block w_100" data-txt-weight="500">Name</h3>
+                            <p class="teambox__description d_block w_100">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod nemo aspernatur nesciunt id!</p>
+                            <a href="mailto: contacto@famoraless.cl" class="btn d_block mx_auto" data-bg-color="primary" data-txt-decoration="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="d_block w_100 fill_white" viewBox="0 0 16 16"><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/></svg>
+                            </a>
+                        </div>
+
+                        <div class="teambox d_flex flex_column justify_content-center align_items-center w_100">
+                            <picture class="teambox__thumbnail d_block w_100">
+                                <img src="assets/images/thumbnail__team_female.png" class="d_block max_100 w_100 object_cover object_center" alt="">
+                            </picture>
+                            <h3 class="teambox__title d_block w_100" data-txt-weight="500">Name</h3>
+                            <p class="teambox__description d_block w_100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati officia temporibus aliquid excepturi?</p>
+                            <a href="mailto: contacto@famoraless.cl" class="btn d_block mx_auto" data-bg-color="primary" data-txt-decoration="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="d_block w_100 fill_white" viewBox="0 0 16 16"><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="portfolio" class="section" data-bg-color="white">
+                <div class="row d_flex flex_column mx_auto w_100" data-txt-color="black" data-txt-weight="400" data-txt-align="center">
+                    <h2 class="section__title d_block mx_auto w_100" data-txt-weight="500" data-txt-transform="capitalize">portfolio</h2>
+                    <p class="section__text d_block mx_auto w_100">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    
+                    <div class="filters d_flex flow_wrap justify_content-center">
+                        <button type="button" class="filter d_block all active" data-txt-weight="500" data-txt-color="primary" data-txt-transform="capitalize" data-filter-btn="all">all</button>
+                        <button type="button" class="filter d_block" data-txt-weight="500" data-txt-color="primary" data-txt-transform="capitalize" data-filter-btn="design">design</button>
+                        <button type="button" class="filter d_block" data-txt-weight="500" data-txt-color="primary" data-txt-transform="capitalize" data-filter-btn="identity">identity</button>
+                        <button type="button" class="filter d_block" data-txt-weight="500" data-txt-color="primary" data-txt-transform="capitalize" data-filter-btn="photography">photography</button>
+                        <button type="button" class="filter d_block" data-txt-weight="500" data-txt-color="primary" data-txt-transform="capitalize" data-filter-btn="illustration">illustration</button>
+                    </div>
+
+                    <div class="portfolioboxes d_flex flow_wrap justify_content-center align_items-center">
+                        <div class="portfoliobox position_relative overflow_hidden" data-filter-box="design">
+                            <div class="portfolio__content position_relative">
+                                <picture class="portfoliobox__thumbnail d_block max_100 w_100">
+                                    <img src="assets/images/thumbnail__portfolio_01.webp" class="d_block max_100 w_100 object_cover object_center" alt="">
+                                </picture>
+
+                                <div class="portfolio__data position_absolute d_flex flex_column align_items-start w_100" data-txt-weight="500" data-txt-color="white" data-txt-align="left" data-bg-trans="grey">
+                                    <h2 class="d_block w_100" data-txt-weight="600" data-txt-transform="uppercase">example title</h2>
+                                    <p class="d_block w_100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea?</p>
+                                </div>
+                            </div>
+
+                            <div class="portfoliobox__link position_absolute d_flex justify_content-center align_items-center w_100 h_100" data-bg-trans="primary">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="d_block w_100 fill_white" viewBox="0 0 16 16"><path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/><path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="portfoliobox position_relative overflow_hidden" data-filter-box="identity">
+                            <div class="portfolio__content position_relative">
+                                <picture class="portfoliobox__thumbnail d_block max_100 w_100">
+                                    <img src="assets/images/thumbnail__portfolio_02.webp" class="d_block max_100 w_100 object_cover object_center" alt="">
+                                </picture>
+
+                                <div class="portfolio__data position_absolute d_flex flex_column align_items-start w_100" data-txt-weight="500" data-txt-color="white" data-txt-align="left" data-bg-trans="grey">
+                                    <h2 class="d_block w_100" data-txt-weight="600" data-txt-transform="uppercase">example title</h2>
+                                    <p class="d_block w_100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea?</p>
+                                </div>
+                            </div>
+
+                            <div class="portfoliobox__link position_absolute d_flex justify_content-center align_items-center w_100 h_100" data-bg-trans="primary">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="d_block w_100 fill_white" viewBox="0 0 16 16"><path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/><path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="portfoliobox position_relative overflow_hidden" data-filter-box="photography">
+                            <div class="portfolio__content position_relative">
+                                <picture class="portfoliobox__thumbnail d_block max_100 w_100">
+                                    <img src="assets/images/thumbnail__portfolio_03.webp" class="d_block max_100 w_100 object_cover object_center" alt="">
+                                </picture>
+
+                                <div class="portfolio__data position_absolute d_flex flex_column align_items-start w_100" data-txt-weight="500" data-txt-color="white" data-txt-align="left" data-bg-trans="grey">
+                                    <h2 class="d_block w_100" data-txt-weight="600" data-txt-transform="uppercase">example title</h2>
+                                    <p class="d_block w_100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea?</p>
+                                </div>
+                            </div>
+
+                            <div class="portfoliobox__link position_absolute d_flex justify_content-center align_items-center w_100 h_100" data-bg-trans="primary">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="d_block w_100 fill_white" viewBox="0 0 16 16"><path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/><path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="portfoliobox position_relative overflow_hidden" data-filter-box="illustration">
+                            <div class="portfolio__content position_relative">
+                                <picture class="portfoliobox__thumbnail d_block max_100 w_100">
+                                    <img src="assets/images/thumbnail__portfolio_04.webp" class="d_block max_100 w_100 object_cover object_center" alt="">
+                                </picture>
+
+                                <div class="portfolio__data position_absolute d_flex flex_column align_items-start w_100" data-txt-weight="500" data-txt-color="white" data-txt-align="left" data-bg-trans="grey">
+                                    <h2 class="d_block w_100" data-txt-weight="600" data-txt-transform="uppercase">example title</h2>
+                                    <p class="d_block w_100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea?</p>
+                                </div>
+                            </div>
+
+                            <div class="portfoliobox__link position_absolute d_flex justify_content-center align_items-center w_100 h_100" data-bg-trans="primary">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="d_block w_100 fill_white" viewBox="0 0 16 16"><path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/><path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="portfoliobox position_relative overflow_hidden" data-filter-box="design">
+                            <div class="portfolio__content position_relative">
+                                <picture class="portfoliobox__thumbnail d_block max_100 w_100">
+                                    <img src="assets/images/thumbnail__portfolio_05.webp" class="d_block max_100 w_100 object_cover object_center" alt="">
+                                </picture>
+
+                                <div class="portfolio__data position_absolute d_flex flex_column align_items-start w_100" data-txt-weight="500" data-txt-color="white" data-txt-align="left" data-bg-trans="grey">
+                                    <h2 class="d_block w_100" data-txt-weight="600" data-txt-transform="uppercase">example title</h2>
+                                    <p class="d_block w_100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea?</p>
+                                </div>
+                            </div>
+
+                            <div class="portfoliobox__link position_absolute d_flex justify_content-center align_items-center w_100 h_100" data-bg-trans="primary">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="d_block w_100 fill_white" viewBox="0 0 16 16"><path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/><path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="portfoliobox position_relative overflow_hidden" data-filter-box="identity">
+                            <div class="portfolio__content position_relative">
+                                <picture class="portfoliobox__thumbnail d_block max_100 w_100">
+                                    <img src="assets/images/thumbnail__portfolio_06.webp" class="d_block max_100 w_100 object_cover object_center" alt="">
+                                </picture>
+
+                                <div class="portfolio__data position_absolute d_flex flex_column align_items-start w_100" data-txt-weight="500" data-txt-color="white" data-txt-align="left" data-bg-trans="grey">
+                                    <h2 class="d_block w_100" data-txt-weight="600" data-txt-transform="uppercase">example title</h2>
+                                    <p class="d_block w_100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea?</p>
+                                </div>
+                            </div>
+
+                            <div class="portfoliobox__link position_absolute d_flex justify_content-center align_items-center w_100 h_100" data-bg-trans="primary">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="d_block w_100 fill_white" viewBox="0 0 16 16"><path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/><path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="portfoliobox position_relative overflow_hidden" data-filter-box="photography">
+                            <div class="portfolio__content position_relative">
+                                <picture class="portfoliobox__thumbnail d_block max_100 w_100">
+                                    <img src="assets/images/thumbnail__portfolio_07.webp" class="d_block max_100 w_100 object_cover object_center" alt="">
+                                </picture>
+
+                                <div class="portfolio__data position_absolute d_flex flex_column align_items-start w_100" data-txt-weight="500" data-txt-color="white" data-txt-align="left" data-bg-trans="grey">
+                                    <h2 class="d_block w_100" data-txt-weight="600" data-txt-transform="uppercase">example title</h2>
+                                    <p class="d_block w_100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea?</p>
+                                </div>
+                            </div>
+
+                            <div class="portfoliobox__link position_absolute d_flex justify_content-center align_items-center w_100 h_100" data-bg-trans="primary">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="d_block w_100 fill_white" viewBox="0 0 16 16"><path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/><path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="portfoliobox position_relative overflow_hidden" data-filter-box="illustration">
+                            <div class="portfolio__content position_relative">
+                                <picture class="portfoliobox__thumbnail d_block max_100 w_100">
+                                    <img src="assets/images/thumbnail__portfolio_08.webp" class="d_block max_100 w_100 object_cover object_center" alt="">
+                                </picture>
+
+                                <div class="portfolio__data position_absolute d_flex flex_column align_items-start w_100" data-txt-weight="500" data-txt-color="white" data-txt-align="left" data-bg-trans="grey">
+                                    <h2 class="d_block w_100" data-txt-weight="600" data-txt-transform="uppercase">example title</h2>
+                                    <p class="d_block w_100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea?</p>
+                                </div>
+                            </div>
+
+                            <div class="portfoliobox__link position_absolute d_flex justify_content-center align_items-center w_100 h_100" data-bg-trans="primary">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="d_block w_100 fill_white" viewBox="0 0 16 16"><path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/><path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="portfoliobox position_relative overflow_hidden" data-filter-box="design">
+                            <div class="portfolio__content position_relative">
+                                <picture class="portfoliobox__thumbnail d_block max_100 w_100">
+                                    <img src="assets/images/thumbnail__portfolio_09.webp" class="d_block max_100 w_100 object_cover object_center" alt="">
+                                </picture>
+
+                                <div class="portfolio__data position_absolute d_flex flex_column align_items-start w_100" data-txt-weight="500" data-txt-color="white" data-txt-align="left" data-bg-trans="grey">
+                                    <h2 class="d_block w_100" data-txt-weight="600" data-txt-transform="uppercase">example title</h2>
+                                    <p class="d_block w_100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea?</p>
+                                </div>
+                            </div>
+
+                            <div class="portfoliobox__link position_absolute d_flex justify_content-center align_items-center w_100 h_100" data-bg-trans="primary">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="d_block w_100 fill_white" viewBox="0 0 16 16"><path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/><path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section" data-bg-color="grey">
+                <div class="row d_flex flex_column justify_content-center mx_auto w_100" data-txt-color="black" data-txt-weight="400"  data-txt-align="center">
+                    <h2 class="section__title d_block mx_auto w_100" data-txt-weight="500" data-txt-transform="capitalize">contact</h2>
+                    <p class="section__text d_block mx_auto w_100">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                
+                    <div class="contact__container mx_auto w_100">
+                        <form id="contact__form" class="contact__form d_flex flex_column align_items-center w_100" aria-autocomplete="none" onsubmit="validateform()">
+                            <fieldset class="d_flex flex_column w_100">
+                                <input type="text" id="contact_form_name" name="contact-form-name" value="" placeholder="enter your name" class="input d_block w_100" data-txt-color="black" data-txt-weight="500" data-bg-color="white" required>
+                            </fieldset>
+
+                            <fieldset class="d_flex flex_column w_100">
+                                <input type="text" id="contact_form_address" name="contact-form-address" value="" placeholder="enter your adress" class="input d_block w_100" data-txt-color="black" data-txt-weight="500" data-bg-color="white" required>
+                            </fieldset>
+
+                            <fieldset class="d_flex flex_column w_100">
+                                <input type="text" id="contact_form_city" name="contact-form-city" value="" placeholder="enter your city" class="input d_block w_100" data-txt-color="black" data-txt-weight="500" data-bg-color="white" required>
+                            </fieldset>
+
+                            <fieldset class="d_flex flex_column w_100">
+                                <input type="email" id="contact_form_email" name="contact-form-email" value="" placeholder="enter your email adress" class="input d_block w_100" data-txt-color="black" data-txt-weight="500" data-bg-color="white" required>
+                            </fieldset>
+                            
+                            <fieldset class="d_flex flex_column w_100">
+                                <textarea id="contact_form_message" name="contact-form-message" placeholder="enter your email message" class="input d_block w_100" data-txt-color="black" data-txt-weight="500" data-bg-color="white" required></textarea>
+                            </fieldset>
+                            
+                            <fieldset class="d_flex flex_column w_100">
+                                <input type="submit" id="contact_form_submit" name="contact-form-submit" value="submit" class="btn mx_auto d_block" data-txt-color="white" data-bg-color="primary" data-txt-transform="capitalize" required>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- BACK TOP BTN -->
+        <a href="#" class="btn__backtop position_fixed d_none align_items-center justify_content-center radius_100 w_100" data-bg-color="dark"><svg xmlns="http://www.w3.org/2000/svg" class="d_block w_100 fill_white" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/></svg></a>
+
+        <!-- FOOTER -->
+        <footer class="footer" data-bg-color="white">
+            <div class="row d_flex flex_column align_items-center justify_content-center mx_auto w_100">
+                <ul class="footer__nav d_flex align_items-center" data-txt-color="500" data-txt-transform="capitalize">
+                    <li class="d_flex align_items-center"><a href="#" data-txt-color="black" data-txt-decoration="none">home</a></li>
+                    <li class="d_flex align_items-center"><a href="#about" data-txt-color="black" data-txt-decoration="none">about</a></li>
+                    <li class="d_flex align_items-center"><a href="#team" data-txt-color="black" data-txt-decoration="none">team</a></li>
+                    <li class="d_flex align_items-center"><a href="#portfolio" data-txt-color="black" data-txt-decoration="none">portfolio</a></li>
+                    <li class="d_flex align_items-center"><a href="#contact" data-txt-color="black" data-txt-decoration="none">contact</a></li>
+                </ul>
+
+                <p class="footer__disclaimer d_block" data-txt-align="center">Copyright © Famoraless 2023. All Rights Reserved</p>
+            </div>
+        </footer>
+
+        <script src="assets/js/min/jquery.min.js"></script>
+        <script src="assets/js/min/formvalidation.min.js"></script>
+        <script src="assets/js/min/formvalidation_es.min.js"></script>
+        <script src="assets/js/min/main.min.js"></script>
+    </body>
+</html>

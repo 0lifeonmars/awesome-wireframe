@@ -1,0 +1,48 @@
+@import url('min/font.min.css');
+@import url('min/reset.min.css');
+@import url('min/keyframes.min.css');
+@import url('min/style.min.css');
+:root {
+    /* COLORES */
+    --color__primary: #2C3E50;
+    --color__white: #FFFFFF;
+    --color__black: #6B6B6B;
+    --color__dark: #000000;
+    --color__grey: #EEEEEE;
+    --color__red: #960101;
+    --color__trans_grey: rgb(108 108 108 / 92.5%);
+    --color__trans_primary: rgb(44 62 80 / 95%);
+
+    --color__primary_shade_01: #283848;
+    --color__primary_shade_02: #233240;
+    --color__primary_shade_03: #1a2530;
+    --color__primary_shade_04: #1a2530;
+    --color__primary_shade_05: #161f28;
+    --color__primary_shade_06: #121920;
+    --color__primary_shade_07: #0d1318;
+    --color__primary_shade_08: #090c10;
+    --color__primary_shade_09: #040608;
+
+    --color__primary_tint_01: #415162;
+    --color__primary_tint_02: #566573;
+    --color__primary_tint_03: #6b7885;
+    --color__primary_tint_04: #808b96;
+    --color__primary_tint_05: #969fa8;
+    --color__primary_tint_06: #abb2b9;
+    --color__primary_tint_07: #c0c5cb;
+    --color__primary_tint_08: #d5d8dc;
+    --color__primary_tint_09: #eaecee;
+
+    --width: 80rem; 
+    --height: 4.375rem;
+    --padding: 1rem;
+    --border: solid 0.094rem;
+    --gap: 0.75rem;
+    --radius: 0.5rem;
+    --transitionTime: 750ms;
+  
+    --animation__slideInDown: slideInDown 800ms both;
+    --animation__slideOutUp: slideOutUp 800ms both; 
+    --animation__slideInRight: slideInRight 800ms both; 
+    --animation__slideOutRight: slideOutRight 800ms both; 
+}
